@@ -1,3 +1,5 @@
+/// @file college.cc
+///@author Matthew Aberegg
 //********************
 //Matthew Aberegg
 //Project 3
@@ -69,6 +71,12 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/**
+@brief adds a course to the course list
+@param c - a course to be added to the lsit
+
+This function will take a course passed in by the user and add it to the linked list of courses using a node class/
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;

@@ -1,3 +1,5 @@
+///@file course.cc
+///@author John Dolan
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.
@@ -52,7 +54,9 @@ void course::output(std::ostream& outs)const{
       }
 }
 
-
+/**
+@brief turns a letter grade into a number
+*/
 double course::get_number_grade()const{
     if(grade == "A") return 4.0;
     if(grade == "A-") return 3.667;

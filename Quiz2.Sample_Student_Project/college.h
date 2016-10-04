@@ -1,3 +1,5 @@
+///@file college.h
+///@author Matthew Aberegg
 //********************
 //Matthew Aberegg
 //Project 3
@@ -15,7 +17,7 @@
 #ifndef COLLEGE_H
 #define COLLEGE_H
 
-
+///@brief a class that hold a list of courses for a particular student
 class College{
 	public:
 	College(std::string s);

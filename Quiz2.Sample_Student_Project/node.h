@@ -1,3 +1,5 @@
+///@file node.h
+///@author John Dolan
 /*************************************************************************
       This file is borrowed heavily from Main/Savitch "Data Structures and
       Other Object Using C++," Chapter 5. It features a node class that 
@@ -9,6 +11,7 @@
 #define NODE_H
 #include "course.h"
 
+///@brief a node that will hold a collegel level course for a singly-linked list
 class node{
     public:
 	typedef course value_type;
